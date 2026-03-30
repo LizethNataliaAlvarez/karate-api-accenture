@@ -1,0 +1,2263 @@
+07:41:30.977 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:41:33.601 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:41:34.063 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:41:34.719 [main] DEBUG com.intuit.karate - response time in milliseconds: 646
+1 < 200
+1 < Date: Mon, 30 Mar 2026 12:41:34 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < Cache-Control: max-age=43200
+1 < etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < expires: -1
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=B%2FuQuBbpSjAYjlm%2F6L0%2Fq1k%2F9xvTexo8XnPe4S655Qk%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1761678399"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=B%2FuQuBbpSjAYjlm%2F6L0%2Fq1k%2F9xvTexo8XnPe4S655Qk%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1761678399"
+1 < Server: cloudflare
+1 < vary: Origin, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1761678430
+1 < Age: 7424
+1 < Accept-Ranges: bytes
+1 < cf-cache-status: HIT
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < Server-Timing: cfEdge;dur=4,cfOrigin;dur=0
+1 < CF-RAY: 9e473076ff5c32d8-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+07:41:34.839 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+07:41:35.052 [main] DEBUG com.intuit.karate - response time in milliseconds: 211
+2 < 200
+2 < Date: Mon, 30 Mar 2026 12:41:34 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < access-control-allow-credentials: true
+2 < Cache-Control: max-age=43200
+2 < etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < expires: -1
+2 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+2 < pragma: no-cache
+2 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=1J0B%2FmthGoceBH1N9bPnytVjVFtpBG1qX5uAGmq3ACs%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774873866"}],"max_age":3600}
+2 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=1J0B%2FmthGoceBH1N9bPnytVjVFtpBG1qX5uAGmq3ACs%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774873866"
+2 < Server: cloudflare
+2 < vary: Origin, Accept-Encoding
+2 < via: 2.0 heroku-router
+2 < x-content-type-options: nosniff
+2 < x-powered-by: Express
+2 < x-ratelimit-limit: 1000
+2 < x-ratelimit-remaining: 957
+2 < x-ratelimit-reset: 1774873913
+2 < Age: 628
+2 < Server-Timing: cfCacheStatus;desc="HIT"
+2 < Server-Timing: cfEdge;dur=6,cfOrigin;dur=0
+2 < cf-cache-status: HIT
+2 < CF-RAY: 9e4730795c78dfa0-MIA
+2 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+07:41:35.093 [main] INFO  com.intuit.karate - karate.env system property was: null 
+07:41:35.244 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+07:41:35.471 [main] DEBUG com.intuit.karate - response time in milliseconds: 226
+1 < 201
+1 < Date: Mon, 30 Mar 2026 12:41:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < access-control-expose-headers: Location
+1 < Cache-Control: no-cache
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < expires: -1
+1 < location: https://jsonplaceholder.typicode.com/users/11
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=lwosjUL%2FLaYO01j913b%2BcnoYyJ4kyEEhkBLd%2BiTj6d4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774874495"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=lwosjUL%2FLaYO01j913b%2BcnoYyJ4kyEEhkBLd%2BiTj6d4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774874495"
+1 < Server: cloudflare
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1774874513
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=2,cfOrigin;dur=25
+1 < CF-RAY: 9e47307bce85d061-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+07:41:35.477 [main] INFO  com.intuit.karate - [print] created id is:  11 
+07:42:04.400 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:42:04.412 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1774874524405
+07:42:06.211 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+07:42:06.211 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+07:42:06.800 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:42:06.801 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+07:42:07.460 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 653
+1 < 200
+1 < Date: Mon, 30 Mar 2026 12:42:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < Cache-Control: max-age=43200
+1 < etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < expires: -1
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=B%2FuQuBbpSjAYjlm%2F6L0%2Fq1k%2F9xvTexo8XnPe4S655Qk%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1761678399"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=B%2FuQuBbpSjAYjlm%2F6L0%2Fq1k%2F9xvTexo8XnPe4S655Qk%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1761678399"
+1 < Server: cloudflare
+1 < vary: Origin, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1761678430
+1 < Age: 7457
+1 < Accept-Ranges: bytes
+1 < cf-cache-status: HIT
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < Server-Timing: cfEdge;dur=4,cfOrigin;dur=0
+1 < CF-RAY: 9e473143aa70d8b3-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+07:42:07.471 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 666
+1 < 201
+1 < Date: Mon, 30 Mar 2026 12:42:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < access-control-expose-headers: Location
+1 < Cache-Control: no-cache
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < expires: -1
+1 < location: https://jsonplaceholder.typicode.com/users/11
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=030%2FzZnbAk1b6cjs5U53n3NO4YaoT6cofzkVjDrogdw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774874527"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=030%2FzZnbAk1b6cjs5U53n3NO4YaoT6cofzkVjDrogdw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774874527"
+1 < Server: cloudflare
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1774874573
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=4,cfOrigin;dur=24
+1 < CF-RAY: 9e473143ace3b112-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+07:42:07.508 [pool-1-thread-2] INFO  com.intuit.karate - [print] created id is:  11 
+07:42:07.525 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+07:42:07.753 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 226
+2 < 200
+2 < Date: Mon, 30 Mar 2026 12:42:07 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < access-control-allow-credentials: true
+2 < Cache-Control: max-age=43200
+2 < etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < expires: -1
+2 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+2 < pragma: no-cache
+2 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=1J0B%2FmthGoceBH1N9bPnytVjVFtpBG1qX5uAGmq3ACs%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774873866"}],"max_age":3600}
+2 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=1J0B%2FmthGoceBH1N9bPnytVjVFtpBG1qX5uAGmq3ACs%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774873866"
+2 < Server: cloudflare
+2 < vary: Origin, Accept-Encoding
+2 < via: 2.0 heroku-router
+2 < x-content-type-options: nosniff
+2 < x-powered-by: Express
+2 < x-ratelimit-limit: 1000
+2 < x-ratelimit-remaining: 957
+2 < x-ratelimit-reset: 1774873913
+2 < Age: 661
+2 < Server-Timing: cfCacheStatus;desc="HIT"
+2 < Server-Timing: cfEdge;dur=4,cfOrigin;dur=0
+2 < cf-cache-status: HIT
+2 < CF-RAY: 9e4731459b41227f-MIA
+2 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+07:42:09.243 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+07:46:39.184 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+07:46:39.312 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1774874799282
+07:46:42.718 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+07:46:42.719 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+07:46:42.734 [pool-1-thread-1] INFO  com.intuit.karate - ---------> primer log 
+07:46:42.734 [pool-1-thread-2] INFO  com.intuit.karate - ---------> primer log 
+07:46:42.853 [pool-1-thread-2] INFO  com.intuit.karate - ---------> segundo log 
+07:46:42.853 [pool-1-thread-1] INFO  com.intuit.karate - ---------> segundo log 
+07:46:43.406 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+07:46:43.407 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+07:46:44.315 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 905
+1 < 200
+1 < Date: Mon, 30 Mar 2026 12:46:44 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < Cache-Control: max-age=43200
+1 < etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < expires: -1
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=B%2FuQuBbpSjAYjlm%2F6L0%2Fq1k%2F9xvTexo8XnPe4S655Qk%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1761678399"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=B%2FuQuBbpSjAYjlm%2F6L0%2Fq1k%2F9xvTexo8XnPe4S655Qk%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1761678399"
+1 < Server: cloudflare
+1 < vary: Origin, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1761678430
+1 < Age: 7734
+1 < Accept-Ranges: bytes
+1 < cf-cache-status: HIT
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+1 < CF-RAY: 9e473805fb6ac8e4-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+07:46:44.315 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 888
+1 < 201
+1 < Date: Mon, 30 Mar 2026 12:46:44 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < access-control-expose-headers: Location
+1 < Cache-Control: no-cache
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < expires: -1
+1 < location: https://jsonplaceholder.typicode.com/users/11
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=E6fnJ4xcNPnawgemT4wNITZKXDHYlamZuZrtOaRwOp4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774874804"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=E6fnJ4xcNPnawgemT4wNITZKXDHYlamZuZrtOaRwOp4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774874804"
+1 < Server: cloudflare
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1774874813
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=3,cfOrigin;dur=24
+1 < CF-RAY: 9e473805fb7fefa6-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+07:46:44.343 [pool-1-thread-2] INFO  com.intuit.karate - [print] created id is:  11 
+07:46:44.346 [pool-1-thread-2] INFO  com.intuit.karate - ---------> tercero log 
+07:46:44.367 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+07:46:44.757 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 387
+2 < 200
+2 < Date: Mon, 30 Mar 2026 12:46:44 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < access-control-allow-credentials: true
+2 < Cache-Control: max-age=43200
+2 < etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < expires: -1
+2 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+2 < pragma: no-cache
+2 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=1J0B%2FmthGoceBH1N9bPnytVjVFtpBG1qX5uAGmq3ACs%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1774873866"}],"max_age":3600}
+2 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=1J0B%2FmthGoceBH1N9bPnytVjVFtpBG1qX5uAGmq3ACs%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1774873866"
+2 < Server: cloudflare
+2 < vary: Origin, Accept-Encoding
+2 < via: 2.0 heroku-router
+2 < x-content-type-options: nosniff
+2 < x-powered-by: Express
+2 < x-ratelimit-limit: 1000
+2 < x-ratelimit-remaining: 957
+2 < x-ratelimit-reset: 1774873913
+2 < Age: 938
+2 < Server-Timing: cfCacheStatus;desc="HIT"
+2 < Server-Timing: cfEdge;dur=7,cfOrigin;dur=0
+2 < cf-cache-status: HIT
+2 < CF-RAY: 9e473808fafd31ce-MIA
+2 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+07:46:46.242 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+08:02:51.295 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:02:54.431 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:02:54.436 [main] INFO  com.intuit.karate - ---------> primer log 
+08:02:54.507 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:13
+Given path 'idiomas' }
+js failed:
+>>>>
+01: 'idiomas' }
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:10 Expected eof but found }
+'idiomas' }
+          ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:428)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.path(ScenarioEngine.java:372)
+- com.intuit.karate.ScenarioActions.path(ScenarioActions.java:80)
+- java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+classpath:examples/idiomas/post-idiomas.feature:13
+08:02:54.534 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:02:54.535 [main] INFO  com.intuit.karate - ---------> primer log 
+08:02:55.343 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 63
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Portugues","descripcion":"Idioma hablado en Brasil"}
+
+08:02:56.386 [main] DEBUG com.intuit.karate - response time in milliseconds: 1031
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:02:56 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e474fc09c11148f-BOG
+1 < rndr-id: bfd5cf11-d8d4-4841
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:02:56.409 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:23
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 1031, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:23
+08:02:56.445 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:02:56.447 [main] INFO  com.intuit.karate - ---------> primer log 
+08:02:56.460 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 60
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Japones","descripcion":"Idioma hablado en Japon"}
+
+08:02:56.726 [main] DEBUG com.intuit.karate - response time in milliseconds: 264
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:02:56 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e474fc30fed9868-BOG
+1 < rndr-id: 24bb3920-c458-48d5
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:02:56.729 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:23
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 264, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:23
+08:03:51.792 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:03:53.039 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:03:53.043 [main] INFO  com.intuit.karate - ---------> primer log 
+08:03:53.089 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:14
+And request idiomaRequest
+js failed:
+>>>>
+01: idiomaRequest
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "idiomaRequest" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/idiomas/post-idiomas.feature:14
+08:03:53.121 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:03:53.121 [main] INFO  com.intuit.karate - ---------> primer log 
+08:03:53.489 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 63
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Portugues","descripcion":"Idioma hablado en Brasil"}
+
+08:03:54.604 [main] DEBUG com.intuit.karate - response time in milliseconds: 1107
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:03:54 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e47512a6dfd6e78-BOG
+1 < rndr-id: fe7dc2e5-2948-4ace
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:03:54.627 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:24
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 1107, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:24
+08:03:54.681 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:03:54.684 [main] INFO  com.intuit.karate - ---------> primer log 
+08:03:54.703 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 60
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Japones","descripcion":"Idioma hablado en Japon"}
+
+08:03:54.958 [main] DEBUG com.intuit.karate - response time in milliseconds: 253
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:03:54 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e47512f0d8eb6ac-BOG
+1 < rndr-id: 7e54887b-5012-48a5
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:03:54.963 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:24
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 253, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:24
+08:04:35.676 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:04:37.526 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:04:37.535 [main] INFO  com.intuit.karate - ---------> primer log 
+08:04:37.909 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Italiano","descripcion":"Idioma hablado en Italia"}
+
+08:04:38.502 [main] DEBUG com.intuit.karate - response time in milliseconds: 584
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:04:38 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e47523ec9921e0e-BOG
+1 < rndr-id: 63c7c9be-94c7-4d49
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:04:38.538 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:15
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 584, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:15
+08:04:38.627 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:04:38.628 [main] INFO  com.intuit.karate - ---------> primer log 
+08:04:38.664 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 63
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Portugues","descripcion":"Idioma hablado en Brasil"}
+
+08:04:38.957 [main] DEBUG com.intuit.karate - response time in milliseconds: 289
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:04:38 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e475241fdd2810e-BOG
+1 < rndr-id: 58ba92be-8211-40c3
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:04:38.966 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:23
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 289, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:23
+08:04:39.038 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:04:39.039 [main] INFO  com.intuit.karate - ---------> primer log 
+08:04:39.050 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 60
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Japones","descripcion":"Idioma hablado en Japon"}
+
+08:04:39.333 [main] DEBUG com.intuit.karate - response time in milliseconds: 279
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:04:39 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e4752444d8c473f-BOG
+1 < rndr-id: c0de9670-d60e-45b9
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:04:39.343 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:23
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 279, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:23
+08:06:44.053 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:06:45.809 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:06:45.826 [main] INFO  com.intuit.karate - ---------> primer log 
+08:06:46.394 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 63
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Francés","descripcion":"Idioma hablado en Francia"}
+
+08:06:47.567 [main] DEBUG com.intuit.karate - response time in milliseconds: 1167
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:06:47 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e475563885a4736-BOG
+1 < rndr-id: 266db934-05e1-4da8
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:06:47.594 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:14
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 1167, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:14
+08:06:47.691 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:06:47.691 [main] INFO  com.intuit.karate - ---------> primer log 
+08:06:47.702 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 64
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Portugués","descripcion":"Idioma hablado en Brasil"}
+
+08:06:47.979 [main] DEBUG com.intuit.karate - response time in milliseconds: 275
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:06:47 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e4755685e5f26ac-BOG
+1 < rndr-id: 17542c3b-43ff-4254
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:06:47.982 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:22
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 275, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:22
+08:06:48.017 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:06:48.019 [main] INFO  com.intuit.karate - ---------> primer log 
+08:06:48.034 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Japonés","descripcion":"Idioma hablado en Japón"}
+
+08:06:48.304 [main] DEBUG com.intuit.karate - response time in milliseconds: 268
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:06:48 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e47556a6b2049dc-BOG
+1 < rndr-id: acd0a46b-8188-4216
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:06:48.307 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:22
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 268, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:22
+08:13:31.905 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:13:34.436 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:13:34.442 [main] INFO  com.intuit.karate - ---------> primer log 
+08:13:35.044 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 63
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Francés","descripcion":"Idioma hablado en Francia"}
+
+08:13:35.980 [main] DEBUG com.intuit.karate - response time in milliseconds: 915
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:13:35 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e475f5e29f39868-BOG
+1 < rndr-id: 42f7dff9-4d24-4bd3
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:13:36.015 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:14
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 915, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:14
+08:13:36.062 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:13:36.062 [main] INFO  com.intuit.karate - ---------> primer log 
+08:13:36.069 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 64
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Portugués","descripcion":"Idioma hablado en Brasil"}
+
+08:13:36.348 [main] DEBUG com.intuit.karate - response time in milliseconds: 275
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:13:36 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e475f60b9049868-BOG
+1 < rndr-id: 566674bf-bcbe-4710
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:13:36.355 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:22
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 275, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:22
+08:13:36.395 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:13:36.397 [main] INFO  com.intuit.karate - ---------> primer log 
+08:13:36.408 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Japonés","descripcion":"Idioma hablado en Japón"}
+
+08:13:36.694 [main] DEBUG com.intuit.karate - response time in milliseconds: 284
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:13:36 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e475f62eea5bd01-BOG
+1 < rndr-id: 1cebf327-088a-45ec
+1 < vary: Origin
+1 < vary: Access-Control-Request-Method
+1 < vary: Access-Control-Request-Headers
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+
+08:13:36.701 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:22
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 284, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1, response: 
+{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource api/v1.","instance":"/api/v1"}
+classpath:examples/idiomas/post-idiomas.feature:22
+08:14:19.854 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:14:21.177 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:14:21.185 [main] INFO  com.intuit.karate - ---------> primer log 
+08:14:21.531 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 63
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Francés","descripcion":"Idioma hablado en Francia"}
+
+08:14:22.271 [main] DEBUG com.intuit.karate - response time in milliseconds: 728
+1 < 405
+1 < Date: Mon, 30 Mar 2026 13:14:22 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e47607faa0b3812-BOG
+1 < allow: PUT, DELETE, GET
+1 < rndr-id: da6e62a3-3c22-4ce5
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Method Not Allowed","status":405,"detail":"Method 'POST' is not supported.","instance":"/api/v1/idiomas/2"}
+
+08:14:22.303 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:14
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 728, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2, response: 
+{"type":"about:blank","title":"Method Not Allowed","status":405,"detail":"Method 'POST' is not supported.","instance":"/api/v1/idiomas/2"}
+classpath:examples/idiomas/post-idiomas.feature:14
+08:14:22.381 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:14:22.381 [main] INFO  com.intuit.karate - ---------> primer log 
+08:14:22.385 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 64
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Portugués","descripcion":"Idioma hablado en Brasil"}
+
+08:14:22.653 [main] DEBUG com.intuit.karate - response time in milliseconds: 266
+1 < 405
+1 < Date: Mon, 30 Mar 2026 13:14:22 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e4760823bbfb6ac-BOG
+1 < allow: PUT, DELETE, GET
+1 < rndr-id: d78aa6bc-cf54-4283
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Method Not Allowed","status":405,"detail":"Method 'POST' is not supported.","instance":"/api/v1/idiomas/2"}
+
+08:14:22.659 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:22
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 266, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2, response: 
+{"type":"about:blank","title":"Method Not Allowed","status":405,"detail":"Method 'POST' is not supported.","instance":"/api/v1/idiomas/2"}
+classpath:examples/idiomas/post-idiomas.feature:22
+08:14:22.705 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:14:22.707 [main] INFO  com.intuit.karate - ---------> primer log 
+08:14:22.725 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Japonés","descripcion":"Idioma hablado en Japón"}
+
+08:14:23.332 [main] DEBUG com.intuit.karate - response time in milliseconds: 605
+1 < 405
+1 < Date: Mon, 30 Mar 2026 13:14:23 GMT
+1 < Content-Type: application/problem+json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e4760845e2af516-BOG
+1 < allow: PUT, DELETE, GET
+1 < rndr-id: ed5a5a66-a447-434d
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"type":"about:blank","title":"Method Not Allowed","status":405,"detail":"Method 'POST' is not supported.","instance":"/api/v1/idiomas/2"}
+
+08:14:23.338 [main] ERROR com.intuit.karate - classpath:examples/idiomas/post-idiomas.feature:22
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 605, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2, response: 
+{"type":"about:blank","title":"Method Not Allowed","status":405,"detail":"Method 'POST' is not supported.","instance":"/api/v1/idiomas/2"}
+classpath:examples/idiomas/post-idiomas.feature:22
+08:18:21.792 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:18:22.780 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:18:22.783 [main] INFO  com.intuit.karate - ---------> primer log 
+08:18:23.036 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 63
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Francés","descripcion":"Idioma hablado en Francia"}
+
+08:18:24.611 [main] DEBUG com.intuit.karate - response time in milliseconds: 1569
+1 < 201
+1 < Date: Mon, 30 Mar 2026 13:18:24 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e476664c893f516-BOG
+1 < rndr-id: 70dafc33-6aae-475b
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"id":15,"idioma":"Francés","descripcion":"Idioma hablado en Francia"}
+
+08:18:24.680 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:18:24.681 [main] INFO  com.intuit.karate - ---------> primer log 
+08:18:24.685 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 64
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Portugués","descripcion":"Idioma hablado en Brasil"}
+
+08:18:24.967 [main] DEBUG com.intuit.karate - response time in milliseconds: 281
+1 < 201
+1 < Date: Mon, 30 Mar 2026 13:18:24 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e47666c9de849dc-BOG
+1 < rndr-id: 454c0ab6-1312-4a0b
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"id":16,"idioma":"Portugués","descripcion":"Idioma hablado en Brasil"}
+
+08:18:24.978 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:18:24.978 [main] INFO  com.intuit.karate - ---------> primer log 
+08:18:24.981 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Japonés","descripcion":"Idioma hablado en Japón"}
+
+08:18:25.263 [main] DEBUG com.intuit.karate - response time in milliseconds: 280
+1 < 201
+1 < Date: Mon, 30 Mar 2026 13:18:25 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e47666e5b906dca-BOG
+1 < rndr-id: cf0d3b53-0665-48c3
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"id":17,"idioma":"Japonés","descripcion":"Idioma hablado en Japón"}
+
+08:25:48.389 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:25:50.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:25:50.958 [main] INFO  com.intuit.karate - ---------> primer log 
+08:25:51.593 [main] DEBUG com.intuit.karate - request:
+1 > GET https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1
+1 > Content-Type: application/json
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:25:52.583 [main] DEBUG com.intuit.karate - response time in milliseconds: 979
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:25:52 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < rndr-id: e34617d1-6061-4c38
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 9e4771597c530ce3-BOG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"NOT FOUND"}
+
+08:25:52.667 [main] ERROR com.intuit.karate - classpath:examples/idiomas/get-idiomas.feature:14
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 979, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1, response: 
+{"message":"NOT FOUND"}
+classpath:examples/idiomas/get-idiomas.feature:14
+08:25:52.708 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:25:52.710 [main] INFO  com.intuit.karate - ---------> primer log 
+08:25:52.717 [main] DEBUG com.intuit.karate - request:
+1 > GET https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1
+1 > Content-Type: application/json
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:25:53.164 [main] DEBUG com.intuit.karate - response time in milliseconds: 445
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:25:53 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < rndr-id: e469c25b-cfac-44c0
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 9e47715d8f79713a-BOG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"NOT FOUND"}
+
+08:25:53.168 [main] ERROR com.intuit.karate - classpath:examples/idiomas/get-idiomas.feature:22
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 445, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1, response: 
+{"message":"NOT FOUND"}
+classpath:examples/idiomas/get-idiomas.feature:22
+08:26:41.508 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:26:43.388 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:26:43.396 [main] INFO  com.intuit.karate - ---------> primer log 
+08:26:43.690 [main] DEBUG com.intuit.karate - request:
+1 > GET https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1
+1 > Content-Type: application/json
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:26:44.472 [main] DEBUG com.intuit.karate - response time in milliseconds: 775
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:26:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < rndr-id: 62b360dd-5192-4231
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 9e47729e1accda19-BOG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"NOT FOUND"}
+
+08:26:44.584 [main] ERROR com.intuit.karate - classpath:examples/idiomas/get-idiomas.feature:14
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 775, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1, response: 
+{"message":"NOT FOUND"}
+classpath:examples/idiomas/get-idiomas.feature:14
+08:26:44.634 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:26:44.634 [main] INFO  com.intuit.karate - ---------> primer log 
+08:26:44.642 [main] DEBUG com.intuit.karate - request:
+1 > GET https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1
+1 > Content-Type: application/json
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:26:44.957 [main] DEBUG com.intuit.karate - response time in milliseconds: 311
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:26:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < rndr-id: bd5c70da-34a2-40a5
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 9e4772a17b897b05-BOG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"NOT FOUND"}
+
+08:26:44.965 [main] ERROR com.intuit.karate - classpath:examples/idiomas/get-idiomas.feature:22
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 311, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1, response: 
+{"message":"NOT FOUND"}
+classpath:examples/idiomas/get-idiomas.feature:22
+08:28:53.885 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:28:55.905 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:28:55.909 [main] INFO  com.intuit.karate - ---------> primer log 
+08:28:56.428 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 54
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Aleman","descripcion":"Idioma de Alemania"}
+
+08:28:57.520 [main] DEBUG com.intuit.karate - response time in milliseconds: 1084
+1 < 201
+1 < Date: Mon, 30 Mar 2026 13:28:57 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e4775dbdfdb3812-BOG
+1 < rndr-id: 51dd1d76-bd7f-4d3c
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"id":18,"idioma":"Aleman","descripcion":"Idioma de Alemania"}
+
+08:28:57.592 [main] DEBUG com.intuit.karate - request:
+2 > GET https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/18
+2 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+08:28:57.959 [main] DEBUG com.intuit.karate - response time in milliseconds: 365
+2 < 200
+2 < Date: Mon, 30 Mar 2026 13:28:57 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < rndr-id: 76198fbf-8603-485c
+2 < vary: Accept-Encoding
+2 < x-render-origin-server: Render
+2 < cf-cache-status: DYNAMIC
+2 < Server: cloudflare
+2 < CF-RAY: 9e4775e0bce6b61c-BOG
+2 < alt-svc: h3=":443"; ma=86400
+{"id":18,"idioma":"Aleman","descripcion":"Idioma de Alemania"}
+
+08:29:32.653 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:29:33.860 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:29:33.863 [main] INFO  com.intuit.karate - ---------> primer log 
+08:29:34.235 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 54
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Aleman","descripcion":"Idioma de Alemania"}
+
+08:29:35.209 [main] DEBUG com.intuit.karate - response time in milliseconds: 968
+1 < 201
+1 < Date: Mon, 30 Mar 2026 13:29:35 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e4776c9b9330172-BOG
+1 < rndr-id: 43ac80e0-1db3-4423
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"id":19,"idioma":"Aleman","descripcion":"Idioma de Alemania"}
+
+08:29:35.234 [main] ERROR com.intuit.karate - classpath:examples/idiomas/get-idiomas.feature:12
+Then status 200
+status code was: 201, expected: 200, response time in milliseconds: 968, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas, response: 
+{"id":19,"idioma":"Aleman","descripcion":"Idioma de Alemania"}
+classpath:examples/idiomas/get-idiomas.feature:12
+08:32:17.463 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:32:20.240 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:32:20.249 [main] INFO  com.intuit.karate - ---------> primer log 
+08:32:20.960 [main] DEBUG com.intuit.karate - request:
+1 > POST https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 54
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Aleman","descripcion":"Idioma de Alemania"}
+
+08:32:22.138 [main] DEBUG com.intuit.karate - response time in milliseconds: 1171
+1 < 201
+1 < Date: Mon, 30 Mar 2026 13:32:22 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < CF-RAY: 9e477adb3918148f-BOG
+1 < rndr-id: 8819a5c6-3d93-4730
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+{"id":20,"idioma":"Aleman","descripcion":"Idioma de Alemania"}
+
+08:32:22.157 [main] ERROR com.intuit.karate - classpath:examples/idiomas/get-idiomas.feature:12
+Then status 200
+status code was: 201, expected: 200, response time in milliseconds: 1171, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas, response: 
+{"id":20,"idioma":"Aleman","descripcion":"Idioma de Alemania"}
+classpath:examples/idiomas/get-idiomas.feature:12
+08:33:29.908 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:33:32.306 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:33:32.312 [main] INFO  com.intuit.karate - ---------> primer log 
+08:33:32.822 [main] DEBUG com.intuit.karate - request:
+1 > GET https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2
+1 > Content-Type: application/json
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:33:33.822 [main] DEBUG com.intuit.karate - response time in milliseconds: 989
+1 < 200
+1 < Date: Mon, 30 Mar 2026 13:33:33 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < rndr-id: 49dc5951-4274-4bf9
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 9e477c9d0bfc7ab1-BOG
+1 < alt-svc: h3=":443"; ma=86400
+{"id":2,"idioma":"Ingles","descripcion":"Idioma global"}
+
+08:33:33.963 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:33:33.964 [main] INFO  com.intuit.karate - ---------> primer log 
+08:33:33.971 [main] DEBUG com.intuit.karate - request:
+1 > GET https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2
+1 > Content-Type: application/json
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:33:34.313 [main] DEBUG com.intuit.karate - response time in milliseconds: 339
+1 < 200
+1 < Date: Mon, 30 Mar 2026 13:33:34 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < rndr-id: 2a42e690-24ff-4010
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 9e477ca0ac8ef516-BOG
+1 < alt-svc: h3=":443"; ma=86400
+{"id":2,"idioma":"Ingles","descripcion":"Idioma global"}
+
+08:37:07.147 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:37:10.304 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:37:10.314 [main] INFO  com.intuit.karate - ---------> primer log 
+08:37:11.460 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 69
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Inglés","descripcion":"Idioma hablado en varios países"}
+
+08:37:12.954 [main] DEBUG com.intuit.karate - response time in milliseconds: 1489
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:37:13 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < rndr-id: b4616f46-24b9-4772
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 9e4781f53f5174ab-BOG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"NOT FOUND"}
+
+08:37:12.969 [main] ERROR com.intuit.karate - classpath:examples/idiomas/put-idiomas.feature:16
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1489, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1, response: 
+{"message":"NOT FOUND"}
+classpath:examples/idiomas/put-idiomas.feature:16
+08:37:13.003 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:37:13.003 [main] INFO  com.intuit.karate - ---------> primer log 
+08:37:13.012 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 78
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Alemán","descripcion":"Idioma hablado principalmente en Alemania"}
+
+08:37:13.335 [main] DEBUG com.intuit.karate - response time in milliseconds: 322
+1 < 404
+1 < Date: Mon, 30 Mar 2026 13:37:13 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < rndr-id: 4c29a571-1d0b-49e1
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 9e4781f9cf83e564-BOG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"NOT FOUND"}
+
+08:37:13.337 [main] ERROR com.intuit.karate - classpath:examples/idiomas/put-idiomas.feature:26
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 322, url: https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/1, response: 
+{"message":"NOT FOUND"}
+classpath:examples/idiomas/put-idiomas.feature:26
+08:38:31.052 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:38:33.210 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:33.215 [main] INFO  com.intuit.karate - ---------> primer log 
+08:38:33.747 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Español","descripcion":"Idioma actualizado"}
+
+08:38:35.069 [main] DEBUG com.intuit.karate - response time in milliseconds: 1310
+1 < 200
+1 < Date: Mon, 30 Mar 2026 13:38:35 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < rndr-id: d8a11c34-10cb-4a49
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 9e4783f5cb947ab1-BOG
+1 < alt-svc: h3=":443"; ma=86400
+{"id":2,"idioma":"Español","descripcion":"Idioma actualizado"}
+
+08:38:35.141 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:38:35.141 [main] INFO  com.intuit.karate - ---------> primer log 
+08:38:35.149 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"idioma":"Italiano","descripcion":"Idioma hablado en Italia"}
+
+08:38:35.500 [main] DEBUG com.intuit.karate - response time in milliseconds: 350
+1 < 200
+1 < Date: Mon, 30 Mar 2026 13:38:35 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < rndr-id: 7a1f7507-abc6-416e
+1 < vary: Accept-Encoding
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 9e4783fb4efee336-BOG
+1 < alt-svc: h3=":443"; ma=86400
+{"id":2,"idioma":"Italiano","descripcion":"Idioma hablado en Italia"}
+
+08:43:20.483 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:43:22.978 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:43:22.995 [main] INFO  com.intuit.karate - ---------> primer log 
+08:43:23.473 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://labqa-api-rest-crud-basic-tqa.onrender.com/api/v1/idiomas/2
+1 > Content-Type: application/json
+1 > Host: labqa-api-rest-crud-basic-tqa.onrender.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:43:24.778 [main] DEBUG com.intuit.karate - response time in milliseconds: 1296
+1 < 204
+1 < Date: Mon, 30 Mar 2026 13:43:24 GMT
+1 < Connection: keep-alive
+1 < CF-RAY: 9e478b0858e16e78-BOG
+1 < rndr-id: 3ac728a6-12c3-4fd2
+1 < x-render-origin-server: Render
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < alt-svc: h3=":443"; ma=86400
+
+
